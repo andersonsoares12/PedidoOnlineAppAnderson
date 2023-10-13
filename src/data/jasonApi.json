@@ -1,0 +1,208 @@
+{
+    "info": {
+        "_postman_id": "bc4cc0b4-afae-4ee1-b116-f0128de36065",
+        "name": "AppAulaRN",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "16457933"
+    },
+    "item": [
+        {
+            "name": "producao",
+            "item": [
+                {
+                    "name": "new-user",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"name\": \"Claudio Matos\",\n    \"email\": \"caupath116@gmail.com\",\n    \"password\": \"123\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "https://master--relaxed-fenglisu-464c83.netlify.app/.netlify/functions/create-user",
+                            "protocol": "https",
+                            "host": [
+                                "master--relaxed-fenglisu-464c83",
+                                "netlify",
+                                "app"
+                            ],
+                            "path": [
+                                ".netlify",
+                                "functions",
+                                "create-user"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "read-users",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://master--relaxed-fenglisu-464c83.netlify.app/.netlify/functions/read-user",
+                            "protocol": "https",
+                            "host": [
+                                "master--relaxed-fenglisu-464c83",
+                                "netlify",
+                                "app"
+                            ],
+                            "path": [
+                                ".netlify",
+                                "functions",
+                                "read-user"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "login-user",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"caupath16@gmail.com\",\n    \"password\": \"123\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "https://master--relaxed-fenglisu-464c83.netlify.app/.netlify/functions/login-user",
+                            "protocol": "https",
+                            "host": [
+                                "master--relaxed-fenglisu-464c83",
+                                "netlify",
+                                "app"
+                            ],
+                            "path": [
+                                ".netlify",
+                                "functions",
+                                "login-user"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "create-order",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"caupath16@gmail.com\",\n    \"password\": \"123\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "https://master--relaxed-fenglisu-464c83.netlify.app/.netlify/functions/login-user",
+                            "protocol": "https",
+                            "host": [
+                                "master--relaxed-fenglisu-464c83",
+                                "netlify",
+                                "app"
+                            ],
+                            "path": [
+                                ".netlify",
+                                "functions",
+                                "login-user"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "read-products",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://master--relaxed-fenglisu-464c83.netlify.app/.netlify/functions/read-products",
+                            "protocol": "https",
+                            "host": [
+                                "master--relaxed-fenglisu-464c83",
+                                "netlify",
+                                "app"
+                            ],
+                            "path": [
+                                ".netlify",
+                                "functions",
+                                "read-products"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "local",
+            "item": [
+                {
+                    "name": "new-product",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"name\": \"Pimentão\",\n    \"price\": 7.99,\n    \"unit\": \"KG\",\n    \"category\": {\n        \"id\": 2,\n        \"name\": \"Vegetais\"\n    },\n    \"imageUrl\": \"https://i.pinimg.com/originals/c6/dc/30/c6dc30874f69cbe21bb8527f6cc08a5d.png\",\n    \"description\": \"O pimentão é um tipo de pimenta da família Solanaceae e do gênero Capsicum. Ao contrário de muitas outras pimentas deste gênero, o pimentão é doce e não picante. São caracterizados por seu formato de sino grande e carnudo e são comuns em muitas cozinhas ao redor do mundo. Pimentões podem ser encontrados em uma variedade de cores, incluindo verde, vermelho, amarelo, laranja e até mesmo roxo ou marrom. Cada cor tem seu próprio sabor e nível de doçura. Por exemplo, os pimentões verdes geralmente são mais herbáceos e um pouco mais amargos, enquanto os pimentões vermelhos são mais doces e frutados. Nutricionalmente, os pimentões são uma excelente fonte de vitamina C, com um único pimentão médio fornecendo mais do que a ingestão diária recomendada. Eles também são uma boa fonte de várias outras vitaminas e minerais, incluindo vitamina A, vitamina B6 e folato. Os pimentões são versáteis na cozinha. Podem ser consumidos crus em saladas ou pratos de aperitivo, cozidos em uma variedade de pratos, grelhados, assados, recheados ou até transformados em conservas. Devido ao seu sabor agradável e textura carnuda, os pimentões adicionam cor e profundidade a muitos pratos. Além dos seus usos culinários, os pimentões têm vários benefícios para a saúde. Devido ao seu alto teor de antioxidantes e vitaminas, têm sido associados à redução do risco de várias doenças crônicas, incluindo doenças oculares e certos tipos de câncer.\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "url": {
+                            "raw": "http://localhost:8888/.netlify/functions/create-product",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8888",
+                            "path": [
+                                ".netlify",
+                                "functions",
+                                "create-product"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "read-products",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://localhost:8888/.netlify/functions/read-products",
+                            "protocol": "http",
+                            "host": [
+                                "localhost"
+                            ],
+                            "port": "8888",
+                            "path": [
+                                ".netlify",
+                                "functions",
+                                "read-products"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        }
+    ]
+}
